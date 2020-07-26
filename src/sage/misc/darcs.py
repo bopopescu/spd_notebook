@@ -82,7 +82,7 @@ class Darcs:
             dir -- directory that will contain the repository
             name -- a friendly name for the repository (only used for printing)
             url -- a default URL to pull or record sends against (e.g.,
-                   this could be a master repository on modular.math.washington.edu)
+                   this could be a main repository on modular.math.washington.edu)
             target -- if the last part of dir is, e.g., sage-darcs,
                       create a symlink from sage-darcs to target.
                       If target=None, this symlink will not be created.
@@ -203,7 +203,7 @@ class Darcs:
 
     def url(self):
         """
-        Return the default 'master url' for this repository.
+        Return the default 'main url' for this repository.
         """
         return self.__url
 
